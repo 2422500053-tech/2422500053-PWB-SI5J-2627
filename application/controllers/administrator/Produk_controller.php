@@ -23,7 +23,7 @@ class Produk_controller extends CI_Controller
 
         $this->load->view('templates/header', $data);
         $this->load->view('templates/sidebar');
-        $this->load->view('administrator/index', $data);
+        $this->load->view('administrator/produk/index', $data);
         $this->load->view('templates/footer');
     }
 
