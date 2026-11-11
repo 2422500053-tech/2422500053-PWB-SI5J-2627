@@ -58,6 +58,14 @@
               </li>
             </ul>
           </li>
+           <li class="nav-item">
+                <a href="<?= base_url() ?>administrator/kota" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Kota</p>
+                </a>
+              </li>
+            </ul>
+          </li>
           <li class="nav-item">
             <a href="<?= base_url('admin/logout') ?>" class="nav-link">
               <i class="nav-icon fas fa-th"></i>

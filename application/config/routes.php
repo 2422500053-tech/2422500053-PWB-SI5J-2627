@@ -45,3 +45,8 @@ $route['administrator/produk'] = 'administrator/Produk_controller/index';
 $route['administrator/produk/tambah'] = 'administrator/Produk_controller/tambah_produk';
 $route['administrator/produk/ubah/(:num)'] = 'administrator/Produk_controller/ubah_produk/$1';
 $route['administrator/produk/hapus/(:num)'] = 'administrator/Produk_controller/hapus_produk/$1';
+
+$route['administrator/kota']['GET'] = 'Kota2422500053_controller/index';
+$route['administrator/kota/tambah']['POST'] = 'Kota2422500053_controller/tambah';
+$route['administrator/kota/ubah/(:num)']['POST'] = 'Kota2422500053_controller/ubah/$1';
+$route['administrator/kota/hapus/(:num)']['POST'] = 'Kota2422500053_controller/hapus/$1';
